@@ -1,3 +1,8 @@
+# THIS FORK IS FOR TESTING ONLY
+
+This fork is not for active development, and not meant to be pushed upstream.
+I use it exclusively for testing. It may not be up-to-date. Go see the main
+viperleed repository for the newest version.
 
 # ViPErLEED
 
