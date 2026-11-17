@@ -17,6 +17,7 @@ on:
   pull_request:
     branches:
       - master
+      - ci-test/master-like  # THROWAWAY: fork test only
   workflow_dispatch:
 
 permissions:
