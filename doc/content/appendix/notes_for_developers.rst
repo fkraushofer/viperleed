@@ -268,6 +268,11 @@ on the *Actions* page of the |repo|, select ``TensErLEED tests``, click
 
 Runs started by hand skip the release tests and the Windows job unless the
 input ``release`` is checked (with the GitHub CLI, add ``-f release=true``).
+Without ``release``, their checks are named
+``TensErLEED tests (no release)`` and
+``TensErLEED tests (Windows, no release)``, so such a run on the head of a
+pull request into ``master`` cannot satisfy the required checks
+``TensErLEED tests`` and ``TensErLEED tests (Windows)``.
 
 
 .. _editable_install:
